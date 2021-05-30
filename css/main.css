@@ -1,0 +1,83 @@
+@font-face {
+    font-family: LeagueSpartan;
+    src: url(../fonts/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: #fbf4e4;
+}
+
+h1 {
+    font-family: LeagueSpartan;
+    letter-spacing: 2px;
+}
+
+h3,
+li {
+    font-family: Lato;
+    font-weight: 400;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1em;
+    color: #fbf4e4;
+    background-color: #373741;
+    padding: 0px 10px;
+    border-radius: 3px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+a {
+    color: #373741;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: #373741;
+    /* old IE */
+    background-color: #373741;
+    /* Modern Browsers */
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: left;
+    color: #373741;
+}
+
+.social {
+    padding-right: 20px;
+}
